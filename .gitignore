@@ -1,0 +1,37 @@
+# Ignore Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs, temp, and cache files
+*.log
+.cache/
+*.cache
+
+# VSCode
+.vscode/
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Streamlit config
+.streamlit/
+
+# Python package artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Env secrets (if you use them)
+.env
